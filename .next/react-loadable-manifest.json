@@ -1,0 +1,12 @@
+{
+  "components\\Hero.jsx -> ./Earth": {
+    "id": "components\\Hero.jsx -> ./Earth",
+    "files": [
+      "static/chunks/_app-pages-browser_components_Earth_jsx.js"
+    ]
+  },
+  "node_modules\\@react-three\\drei\\core\\FaceLandmarker.js -> @mediapipe/tasks-vision": {
+    "id": "node_modules\\@react-three\\drei\\core\\FaceLandmarker.js -> @mediapipe/tasks-vision",
+    "files": []
+  }
+}
