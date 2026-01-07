@@ -19,7 +19,7 @@ const SKILLS = [
   {
     icon: <Server size={28} />,
     title: "Frontend",
-    items: ["HTML", "CSS", "React.js", "Next.js", "Tailwind CSS", "React.js", "Next.js", "TailwindCSS", "Bootstrap", "Material UI"],
+    items: ["HTML", "CSS", "React.js", "Next.js", "Tailwind CSS",  "Bootstrap", "Material UI"],
   },
   {
     icon: <Database size={28} />,
