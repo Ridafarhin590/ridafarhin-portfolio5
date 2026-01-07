@@ -51,7 +51,7 @@ export default function Hero() {
                 Rida <span className="text-primary">Farhin</span>
               </h1>
 
-              <h2 className="mt-4 text-3xl md:text-3xl font-semibold">
+              <h2 className="mt-4 text-4xl md:text-3xl font-semibold">
                 Software Developer
               </h2>
 
