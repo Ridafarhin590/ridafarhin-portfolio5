@@ -62,7 +62,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-slate-500">Location</p>
-                  <p className="font-medium">India · Open to Remote</p>
+                  <p className="font-medium">India · Bhopal Madhya Pradesh</p>
                 </div>
               </div>
             </div>
