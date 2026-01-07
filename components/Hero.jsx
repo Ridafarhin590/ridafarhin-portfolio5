@@ -45,7 +45,7 @@ export default function Hero() {
             <motion.div
               initial={{ opacity: 0, x: -40 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.7 }}
+              transition={{ duration: 0.9 }}
             >
               <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
                 Rida <span className="text-primary">Farhin</span>
@@ -84,12 +84,12 @@ export default function Hero() {
       </div>
 
       {/* ================= SCROLL DOWN ================= */}
+       <div className="absolute bottom-1 left-1/2 -translate-x-1/2 flex flex-col items-center text-sm opacity-70">
+        <span className="mb-1">Scroll Down</span>
       <button onClick={handleScrollDown} className="mt-1">
        <ArrowDown className="animate-bounce" size={18} />
        </button>
-       <div className="absolute bottom-1 left-1/2 -translate-x-1/2 flex flex-col items-center text-sm opacity-70">
-        <span className="mb-1">Scroll Down</span>
-        <ArrowDown className="animate-bounce" size={18} />
+      
         
       </div>
     </section>
