@@ -52,7 +52,7 @@ export default function Hero() {
               </h1>
 
               <h2 className="mt-4 text-2xl md:text-3xl font-semibold">
-                Aspiring Software Engineer
+                Aspiring Software Developer
               </h2>
 
               <p className="mt-6 max-w-xl text-lg text-slate-600 dark:text-slate-300">

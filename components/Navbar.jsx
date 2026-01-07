@@ -24,7 +24,7 @@ export default function Navbar() {
       <nav className="container mx-auto flex items-center justify-between px-9 py-4">
         
         {/* LOGO */}
-        <a href="#home" className="text-2xl font-bold">
+        <a href="#home" className="text-3xl font-bold">
           <span className="text-primary">.Portfolio</span>
         </a>
 

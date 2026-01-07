@@ -7,6 +7,7 @@ export const metadata = {
   icons: {
     icon: "/icon.png",       // browser tab iconk
   },
+  authors: [{ name: "Rida Farhin" }],
 };
 
 export default function RootLayout({ children }) {

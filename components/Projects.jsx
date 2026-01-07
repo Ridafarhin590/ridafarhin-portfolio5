@@ -63,6 +63,32 @@ const PROJECTS = [
     ],
     link: "#",
   },
+  {
+  title: "Spotify Clone – UI Project (HTML & CSS)",
+  description:
+    "A Spotify-inspired web UI built completely from scratch using HTML and CSS. This project helped me understand professional website structure, layout design, navigation bars, playlist sections, and music player UI. It strengthened my fundamentals of CSS positioning, spacing, typography, color balance.",
+  tech: [
+    "HTML5",
+    "CSS3",
+    "Flexbox",
+    "CSS Grid",
+    "UI/UX Design",
+  ],
+  link: "#",
+},
+{
+  title: "Side Navigation Bar Website",
+  description:
+    "My first web development project built using only HTML and CSS. This project introduced me to semantic HTML, layout structuring, hover effects, color theory, and design principles like contrast, balance, and readability. It marks the beginning of my journey toward becoming a Software Development Engineer.",
+  tech: [
+    "HTML5",
+    "CSS3",
+    "Semantic HTML",
+    "Responsive Design",
+  ],
+  link: "#",
+},
+
 ];
 export default function Projects() {
   return (

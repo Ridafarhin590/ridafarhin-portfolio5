@@ -1,15 +1,27 @@
 "use client";
 
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
+import { useRef } from "react";
 
 function Globe() {
-  return (
-    <mesh>
-      {/* ⬆️ BIGGER SPHERE */}
-      <sphereGeometry args={[3, 40, 40]} />
+  const meshRef = useRef();
 
-      <meshStandardMaterial
+  useFrame(() => {
+    if (!meshRef.current) return;
+
+    // Scroll-based scaling
+    const scrollY = window.scrollY;
+    const scale = Math.min(1 + scrollY / 700, 2.2); // 🔥 grow limit
+
+    meshRef.current.scale.set(scale, scale, scale);
+    meshRef.current.rotation.y += 0.002; // smooth rotation
+  });
+
+  return (
+    <mesh ref={meshRef}>
+      <sphereGeometry args={[1.2, 40, 40]} />
+      <meshBasicMaterial
         color="#2563eb"
         wireframe
         transparent
@@ -22,22 +34,15 @@ function Globe() {
 export default function Earth() {
   return (
     <Canvas
-      camera={{ position: [1, 0, 5] }}  // ⬅️ zoomed out for big globe
-      dpr={1}
+      camera={{ position: [0, 0, 2.2] }}
       style={{ width: "100%", height: "100%" }}
     >
-      {/* LIGHTS */}
-      <ambientLight intensity={0.7} />
-      <directionalLight position={[5, 5, 5]} intensity={1} />
-
-      {/* ROTATION */}
       <OrbitControls
         enableZoom={false}
         enablePan={false}
         autoRotate
-        autoRotateSpeed={0.9}
+        autoRotateSpeed={0.6}
       />
-
       <Globe />
     </Canvas>
   );
