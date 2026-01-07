@@ -77,7 +77,7 @@ export default function Hero() {
         </div>
 
         {/* ================= RIGHT : FULL-WIDTH EARTH ================= */}
-        <div className="relative h-[520px] md:h-[520px] w-full">
+        <div className="hidden md:flex justify-center relative h-[520px] md:h-[520px] w-full">
           <Earth />
         </div>
 
