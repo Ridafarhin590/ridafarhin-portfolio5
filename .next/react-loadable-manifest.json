@@ -1,12 +1,14 @@
 {
   "components\\Hero.jsx -> ./Earth": {
-    "id": "components\\Hero.jsx -> ./Earth",
+    "id": 4112,
     "files": [
-      "static/chunks/_app-pages-browser_components_Earth_jsx.js"
+      "static/chunks/b536a0f1.d87685cac2b710c2.js",
+      "static/chunks/395.e717dfd96478553e.js",
+      "static/chunks/112.338ce17c22b942df.js"
     ]
   },
   "node_modules\\@react-three\\drei\\core\\FaceLandmarker.js -> @mediapipe/tasks-vision": {
-    "id": "node_modules\\@react-three\\drei\\core\\FaceLandmarker.js -> @mediapipe/tasks-vision",
+    "id": null,
     "files": []
   }
 }

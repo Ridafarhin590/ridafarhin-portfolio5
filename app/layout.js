@@ -4,11 +4,12 @@ import Navbar from "../components/Navbar";
 export const metadata = {
   title: "Rida Farhin | Software Developer",
   description: "Portfolio of Rida Farhin – Full Stack & MERN Developer",
-  icons: {
-    icon: "/icon.png",       // browser tab iconk
-  },
   authors: [{ name: "Rida Farhin" }],
+  icons: {
+    icon: "/public/icon.png",       // browser tab iconk
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (
