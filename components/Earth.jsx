@@ -12,7 +12,7 @@ function Globe() {
 
     // Scroll-based scaling
     const scrollY = window.scrollY;
-    const scale = Math.min(1 + scrollY / 700, 2.2); // 🔥 grow limit
+    const scale = Math.min(1 + scrollY / 700, 1.7); // 🔥 grow limit
 
     meshRef.current.scale.set(scale, scale, scale);
     meshRef.current.rotation.y += 0.002; // smooth rotation
