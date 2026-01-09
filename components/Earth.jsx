@@ -20,7 +20,7 @@ function Globe() {
 
   return (
     <mesh ref={meshRef}>
-      <sphereGeometry args={[1.2, 40, 40]} />
+      <sphereGeometry args={[1.2, 30, 30]} />
       <meshBasicMaterial
         color="#2563eb"
         wireframe
