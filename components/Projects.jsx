@@ -19,7 +19,7 @@ const PROJECTS = [
       "Multer",
       "REST APIs",
     ],
-    link: "#",
+    
   },
   {
     title: "SigmaGPT – AI Chat Application (MERN)",
@@ -33,7 +33,7 @@ const PROJECTS = [
       "MongoDB",
       "OpenAI API",
     ],
-    link: "#",
+    
   },
   {
     title: "Smart Weather App with AI Advice",
@@ -45,7 +45,7 @@ const PROJECTS = [
       "OpenWeatherMap API",
       "AI Recommendations",
     ],
-    link: "#",
+    
   },
 {
     title: "Mini WhatsApp – Full-Stack Chat Application with AI Assistance",
@@ -61,7 +61,7 @@ const PROJECTS = [
       "REST APIs",
       "Method Override",
     ],
-    link: "#",
+ 
   },
   {
   title: "Spotify Clone – UI Project (HTML & CSS)",
@@ -74,7 +74,7 @@ const PROJECTS = [
     "CSS Grid",
     "UI/UX Design",
   ],
-  link: "#",
+ 
 },
 {
   title: "Side Navigation Bar Website",
@@ -86,7 +86,7 @@ const PROJECTS = [
     "Semantic HTML",
     "Responsive Design",
   ],
-  link: "#",
+
 },
 
 ];
