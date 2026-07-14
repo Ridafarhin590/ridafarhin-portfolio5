@@ -45,7 +45,7 @@ export default function Experience() {
               </p>
 
               <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-                Jan 2025 – Jun 2025
+                Jan 2025 – Jan 2026
               </p>
 
               <ul className="mt-4 space-y-2 text-slate-600 dark:text-slate-300 list-disc list-inside">
