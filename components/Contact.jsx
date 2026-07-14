@@ -70,7 +70,7 @@ export default function Contact() {
             {/* RIGHT */}
             <div className="space-y-6">
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/in/rida-farhin-8363552b5/"
                 target="_blank"
                 className="flex items-center gap-4 rounded-xl border border-blue-600 px-6 py-4 text-blue-600 hover:bg-blue-600 hover:text-white transition"
               >
@@ -79,7 +79,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://github.com"
+                href="https://github.com/Ridafarhin590"
                 target="_blank"
                 className="flex items-center gap-4 rounded-xl border border-blue-600 px-6 py-4 text-blue-600 hover:bg-blue-600 hover:text-white transition"
               >
