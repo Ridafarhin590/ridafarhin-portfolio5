@@ -141,7 +141,7 @@ export default function Projects() {
 
               {/* LINK */}
               <a
-                href={project.link}
+                href={https://rida-ai-ml-landing-web-page.vercel.app/}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 inline-flex items-center gap-2 text-blue-600 font-semibold hover:underline"
