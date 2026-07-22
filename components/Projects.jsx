@@ -146,7 +146,7 @@ export default function Projects() {
                 rel="noopener noreferrer"
                 className="mt-6 inline-flex items-center gap-2 text-blue-600 font-semibold hover:underline"
               >
-                View Project <ExternalLink size={16} />
+                View Project <https://rida-ai-ml-landing-web-page.vercel.app/ size={16} />
               </a>
             </motion.div>
           ))}
