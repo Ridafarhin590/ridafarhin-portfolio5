@@ -4,30 +4,30 @@ import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 
 const PROJECTS = [
-
   {
-  title: "SNAPCLASS – AI Attendance Management System",
-  description:
-    "An AI-powered attendance management system that automates classroom attendance using face recognition and voice verification. It includes secure authentication, teacher and student dashboards, subject management, attendance analytics, and real-time cloud storage powered by Supabase.",
-  tech: [
-    "Python",
-    "Streamlit",
-    "Supabase",
-    "OpenCV",
-    "Face Recognition",
-    "Voice Recognition",
-    "Scikit-learn",
-    "Librosa",
-    "Resemblyzer",
-    "NumPy",
-    "Pandas",
-  ],
-  link: "https://rida-ai-ml-landing-web-page.vercel.app/",
-},
+    title: "SNAPCLASS – AI Attendance Management System",
+    description:
+      "An AI-powered attendance management system that automates classroom attendance using face recognition and voice verification. It includes secure authentication, teacher and student dashboards, subject management, attendance analytics, and real-time cloud storage powered by Supabase.",
+    tech: [
+      "Python",
+      "Streamlit",
+      "Supabase",
+      "OpenCV",
+      "Face Recognition",
+      "Voice Recognition",
+      "Scikit-learn",
+      "Librosa",
+      "Resemblyzer",
+      "NumPy",
+      "Pandas",
+    ],
+    link: "https://rida-ai-ml-landing-web-page.vercel.app/",
+  },
+
   {
     title: "Wanderlust – Full Stack Web Application",
     description:
-      "A full-stack web platform that allows users to create, view, edit, and delete property listings with authentication and image uploads.",
+      "A full-stack web platform that allows users to create, view,edit, and delete property listings with authentication and image uploads.",
     tech: [
       "Node.js",
       "Express.js",
@@ -40,12 +40,12 @@ const PROJECTS = [
       "REST APIs",
     ],
     link: "https://github.com/Ridafarhin590/Wanderlust",
-    
   },
+
   {
     title: "SigmaGPT – AI Chat Application (MERN)",
     description:
-      "A ChatGPT-like AI chat application built using the MERN stack with real-time AI responses and smooth client–server communication.",
+      "A ChatGPT-like AI chat application built using the MERN stack with real-time AI responses and smooth client-server communication.",
     tech: [
       "React",
       "Vite",
@@ -54,8 +54,9 @@ const PROJECTS = [
       "MongoDB",
       "OpenAI API",
     ],
-    
+    link: "https://github.com/Ridafarhin590",
   },
+
   {
     title: "Smart Weather App with AI Advice",
     description:
@@ -66,12 +67,13 @@ const PROJECTS = [
       "OpenWeatherMap API",
       "AI Recommendations",
     ],
-    
+    link: "https://github.com/Ridafarhin590",
   },
-{
+
+  {
     title: "Mini WhatsApp – Full-Stack Chat Application with AI Assistance",
     description:
-    "A full-stack chat application that allows users to create, view, edit, and delete chat messages with persistent database storage and a clean, responsive user interface.",
+      "A full-stack chat application that allows users to create, view, edit, and delete chat messages with persistent database storage and a clean, responsive user interface.",
     tech: [
       "Node.js",
       "Express.js",
@@ -82,41 +84,46 @@ const PROJECTS = [
       "REST APIs",
       "Method Override",
     ],
- 
+    link: "https://github.com/Ridafarhin590",
   },
+
   {
-  title: "Spotify Clone – UI Project (HTML & CSS)",
-  description:
-    "A Spotify-inspired web UI built completely from scratch using HTML and CSS. This project helped me understand professional website structure, layout design, navigation bars, playlist sections, and music player UI. It strengthened my fundamentals of CSS positioning, spacing, typography, color balance.",
-  tech: [
-    "HTML5",
-    "CSS3",
-    "Flexbox",
-    "CSS Grid",
-    "UI/UX Design",
-  ],
- 
-},
-{
-  title: "Side Navigation Bar Website",
-  description:
-    "My first web development project built using only HTML and CSS. This project introduced me to semantic HTML, layout structuring, hover effects, color theory, and design principles like contrast, balance, and readability. It marks the beginning of my journey toward becoming a Software Development Engineer.",
-  tech: [
-    "HTML5",
-    "CSS3",
-    "Semantic HTML",
-    "Responsive Design",
-  ],
+    title: "Spotify Clone – UI Project (HTML & CSS)",
+    description:
+      "A Spotify-inspired web UI built completely from scratch using HTML and CSS. This project strengthened my understanding of professional layouts, navigation, playlists, responsive design, typography, and CSS positioning.",
+    tech: [
+      "HTML5",
+      "CSS3",
+      "Flexbox",
+      "CSS Grid",
+      "UI/UX Design",
+    ],
+    link: "https://github.com/Ridafarhin590",
+  },
 
-},
-
+  {
+    title: "Side Navigation Bar Website",
+    description:
+      "My first web development project built using only HTML and CSS. It introduced me to semantic HTML, responsive layouts, hover effects, and modern design principles.",
+    tech: [
+      "HTML5",
+      "CSS3",
+      "Semantic HTML",
+      "Responsive Design",
+    ],
+    link: "https://github.com/Ridafarhin590",
+  },
 ];
+
 export default function Projects() {
   return (
-    <section id="projects" className="section bg-white dark:bg-[#020617]">
+    <section
+      id="projects"
+      className="section bg-white dark:bg-[#020617]"
+    >
       <div className="container mx-auto px-6 lg:px-20">
 
-        {/* ================= HEADING ================= */}
+        {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -126,17 +133,21 @@ export default function Projects() {
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white">
             My <span className="text-blue-600">Projects</span>
           </h2>
-          <div className="mt-2 h-1 w-20 bg-blue-600 rounded-full" />
+
+          <div className="mt-2 h-1 w-20 rounded-full bg-blue-600" />
         </motion.div>
 
-        {/* ================= PROJECT GRID ================= */}
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Project Grid */}
+        <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {PROJECTS.map((project, index) => (
             <motion.div
               key={project.title}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
+              transition={{
+                duration: 0.6,
+                delay: index * 0.1,
+              }}
               viewport={{ once: true }}
               className="card flex flex-col"
             >
@@ -144,31 +155,34 @@ export default function Projects() {
                 {project.title}
               </h3>
 
-              <p className="mt-3 text-slate-600 dark:text-slate-300 flex-1">
+              <p className="mt-3 flex-1 text-slate-600 dark:text-slate-300">
                 {project.description}
               </p>
 
-              {/* TECH STACK */}
+              {/* Tech Stack */}
               <div className="mt-4 flex flex-wrap gap-2">
                 {project.tech.map((item) => (
                   <span
                     key={item}
-                    className="text-xs font-medium px-3 py-1 rounded-full bg-blue-50 text-blue-600 dark:bg-slate-800 dark:text-blue-400"
+                    className="rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-600 dark:bg-slate-800 dark:text-blue-400"
                   >
                     {item}
                   </span>
                 ))}
               </div>
 
-              {/* LINK */}
-              <a
-                href={}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 inline-flex items-center gap-2 text-blue-600 font-semibold hover:underline"
-              >
-                View Project < />
-              </a>
+              {/* View Project */}
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-flex items-center gap-2 font-semibold text-blue-600 transition hover:text-blue-700"
+                >
+                  View Project
+                  <ExternalLink size={16} />
+                </a>
+              )}
             </motion.div>
           ))}
         </div>
