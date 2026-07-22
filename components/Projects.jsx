@@ -4,6 +4,26 @@ import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 
 const PROJECTS = [
+
+  {
+  title: "SNAPCLASS – AI Attendance Management System",
+  description:
+    "An AI-powered attendance management system that automates classroom attendance using face recognition and voice verification. It includes secure authentication, teacher and student dashboards, subject management, attendance analytics, and real-time cloud storage powered by Supabase.",
+  tech: [
+    "Python",
+    "Streamlit",
+    "Supabase",
+    "OpenCV",
+    "Face Recognition",
+    "Voice Recognition",
+    "Scikit-learn",
+    "Librosa",
+    "Resemblyzer",
+    "NumPy",
+    "Pandas",
+  ],
+  link: "https://rida-ai-ml-landing-web-page.vercel.app/",
+},
   {
     title: "Wanderlust – Full Stack Web Application",
     description:
@@ -19,6 +39,7 @@ const PROJECTS = [
       "Multer",
       "REST APIs",
     ],
+    link: "https://github.com/Ridafarhin590/Wanderlust",
     
   },
   {
@@ -141,12 +162,12 @@ export default function Projects() {
 
               {/* LINK */}
               <a
-                href={https://rida-ai-ml-landing-web-page.vercel.app/}
+                href={}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 inline-flex items-center gap-2 text-blue-600 font-semibold hover:underline"
               >
-                View Project <https://rida-ai-ml-landing-web-page.vercel.app/ size={16} />
+                View Project < />
               </a>
             </motion.div>
           ))}
